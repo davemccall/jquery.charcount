@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<link rel="stylesheet" href="sample.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="jquery.charcount.js"></script>
+</head>
+<body>
+	<div class="container">
+		<form>
+			<div class="sample">
+				<label>default</label>
+				<textarea cols="40" rows="5" class="charcount-attach"></textarea>
+			</div>
+			<div class="sample">
+				<label>warning-length: 18, max-length: 20, format: "You have {remaining} characters left"</label>
+				<textarea cols="40" rows="5" class="charcount-attach" data-warning-length="18" data-max-length="20" 
+					data-format="You have {remaining} characters left"></textarea>
+			</div>
+			<div class="sample">
+				<label>warning-length: 18, max-length: 20, format: "{remaining}", position: above</label>
+				<textarea cols="40" rows="5" class="charcount-attach" data-warning-length="18" data-max-length="20" 
+					data-format="{remaining}" data-position="above"></textarea>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

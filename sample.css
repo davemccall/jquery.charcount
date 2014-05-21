@@ -1,0 +1,25 @@
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 17px;
+	line-height: 1.6em;
+}
+.container {
+	width: 900px;
+	margin: auto;
+}
+.sample {
+	margin-bottom: 30px;
+}
+.sample label {
+	display: block;
+	font-style: italic;
+}
+
+.charcount {
+}
+.charcount.warning {
+	color: orange;
+}
+.charcount.invalid {
+	color: red;
+}
